@@ -6,16 +6,20 @@
     android:gravity="center"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#674426"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="32sp"
         android:text="Gracz 1" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
+        android:textColor="#68B3B2B2"
+        android:backgroundTint="#8F582E"
         android:layout_height="320dp"
         android:text="Button" />
 
@@ -23,12 +27,15 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="320dp"
+        android:textColor="#68B3B2B2"
+        android:backgroundTint="#8F582E"
         android:text="Button" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="32sp"
         android:textAlignment="center"
         android:text="Gracz 2" />
 
