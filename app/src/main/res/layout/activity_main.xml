@@ -12,24 +12,32 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="32sp"
-        android:text="Gracz 1" />
+        android:rotation="180"
+        android:text="Gracz 1"
+        android:textSize="32sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
-        android:textColor="#68B3B2B2"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:backgroundTint="#8F582E"
-        android:layout_height="320dp"
-        android:text="Button" />
-
+        android:rotation="180"
+        android:text="03:00"
+        android:textColor="#68B3B2B2"
+        android:textSize="64sp" />
+<!--
+android:layout_weight="1": powoduje że przycisk rozpycha się na 1/2 wysokości
+-->
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="320dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="64sp"
         android:textColor="#68B3B2B2"
         android:backgroundTint="#8F582E"
-        android:text="Button" />
+        android:text="03:00" />
 
     <TextView
         android:id="@+id/textView"
